@@ -47,8 +47,9 @@ const Aceuil = () => {
                 </div>
                 <div className='p-6'>
                     <section >
-                        <Imgp/>   
-                    </section>
+                        <Imgp/>
+
+                    </section> 
                 </div>
                 <div className=' lg:mx-0 lg:pr-24 p-6'>
                     <h1 className='text-sky-600  text-5xl  mb-7 mt-7'>Our three day schedule is jam-packed with brilliant, creative, evil geniuses.</h1>
@@ -186,7 +187,7 @@ const Aceuil = () => {
                 <div className='sponsorship'>
                     <h1 className='text-4xl p-10 text-center text-sky-600 font-medium'>Current sponsorships for our 
                         workshops and speakers.</h1>
-                    <div className='grid grid-cols-3 mt-20 mb-20 gap-10 ml-30 mr-20 justify-center  '>
+                    <div className='grid grid-cols-3 mt-20 mb-20 gap-10 ml-60 mr-20 justify-center '>
                         <img src={Transistor1} alt="" />
                         <img src={Tuple} alt="" />
                         <img src={Statickit} alt="" />

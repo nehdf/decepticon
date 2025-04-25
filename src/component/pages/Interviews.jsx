@@ -4,7 +4,10 @@ import { dianna_guilianelli, erhrat_cockrin1, jaquelin_isch, ronni_cantador, ste
 const Interviews = () => {
   return (
         <div className='grid grid-cols-3 gap-4 p-10'>
-          <img src={erhrat_cockrin1} alt="" />
+          <div>
+            <img src={erhrat_cockrin1} alt="" />
+            <h2>erhrat cockrin</h2>
+          </div>
           <img src={dianna_guilianelli} alt="" />
           <img src={jaquelin_isch} alt="" />
           <img src={ronni_cantador} alt="" />

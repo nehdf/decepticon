@@ -7,6 +7,7 @@ import Interviews from './component/pages/Interviews';
 import Workshops from './component/pages/Workshops';
 import Imgp from './component/pages/imgp';
 
+
 const App = () => {
   return (
     <>
@@ -14,7 +15,6 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Aceuil/>} />
         <Route path='/Opening' element={<Opening/>} />
-        
         <Route path='/Iterviews' element={<Interviews/>}/>
         <Route path='/Workshops' element={<Workshops/>}/>
       </Routes>

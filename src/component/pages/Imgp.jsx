@@ -21,9 +21,9 @@ const ImageDisplay = () => {
 
   return (
     <div className='grid grid-cols-3 gap-4'>
-      <div >
-        <button  tabIndex={0}  onClick={() => handleButtonClick(0) }>Opening Day</button>
-        <h1 className='text-sky-800 text-3xl ml-10'>April 4</h1>
+      <div className=''>
+        <button className='images'  tabIndex={0}  onClick={() => handleButtonClick(0) }>Opening Day</button>
+        <h1 className='text-sky-800 text-3xl '>April 4</h1>
       </div>
       <div>
         <button tabIndex={1} onClick={() => handleButtonClick(1)}>Speaker & Worksxhops</button>
@@ -31,13 +31,13 @@ const ImageDisplay = () => {
       </div>
       <div>
         <button tabIndex={2} onClick={() => handleButtonClick(2)}>Interviews</button>
-        <h1 className='text-sky-800 text-3xl ml-10'>April 6</h1>
+        <h1 className='text-sky-800 text-3xl '>April 6</h1>
       </div>
-      <div className=''>
-        {images[currentIndex].map((image, idx) => (
-          <img key={idx} className='flex' src={image} alt={`Image ${idx + 1}`} />
-        ))}
-      </div>
+      
+      {images[currentIndex].map((image, idx) => (
+      <img className='flex' key={idx}  src={image} alt={`Image ${idx + 1}`} />
+      ))}
+      
     </div>
   );
 };
