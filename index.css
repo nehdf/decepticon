@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.bg{
+    background-image: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Navbar{
+    background-image: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation{
+    background-image: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kh{
+    background-image: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
